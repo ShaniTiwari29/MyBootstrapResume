@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+
+  <!-- fontawsome icons -->
+  <script src="https://kit.fontawesome.com/58d60402d9.js" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+
+  <!-- bootstrap links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+
+
+  <!-- my own css link -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href=""><i class="fa-sharp fa-solid fa-person-chalkboard"></i></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">education</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1>Hello! my name is Sunny. A full stack Java Developer</h1>
+          <button type="button" class="btn btn-dark btn-lg psb"><a href="https://www.instagram.com/rarely_someone/?hl=en" target="_blank" style="text-decoration: none; color: white;"><i class="fa-brands fa-instagram"></i>
+            Instagram</a></button>
+          <button type="button" class="btn btn-outline-light btn-lg psb"><a href="https://www.linkedin.com/in/shani-tiwari-632176251/" target="_blank"
+            style="text-decoration: none; color: black;"><i class="fa-brands fa-linkedin"></i>
+            Linkedin</a></button>
+        </div>
+        <div class="col-lg-6">
+          <img class="title-image" src="images/sunny.jpg" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-brands fa-js fa-7x"></i>
+        <h3>HTML , CSS & JS</h3>
+        <p>I have knowledge on frontend languages</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-brands fa-java fa-7x"></i>
+        <h3>JAVA & J2EE</h3>
+        <p>But my favroite part is backend using java and servlets</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fa-solid fa-database fa-7x"></i>
+        <h3>MYSQL</h3>
+        <p>I also know database operations on mysql database</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+    <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>My 1st project was made on core java opps concept it was a java console application.</h2>
+          <img class="testimonial-image" src="images/Java-Logo.png" alt="dog-profile" style="border-radius: 20%;">
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My 2nd project is this website which is made using HTML , CSS and a framework
+            called bootstrap</h2>
+          <img class="testimonial-image" src="images/htmlcssbootstrap.jpg" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My 3rd project is based on Advance java concepts like jdbc, servlets, jsp,
+            filters, session</h2>
+          <img class="testimonial-image" src="images/servlet&jsp.png" alt="lady-profile">
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My 4th project is based on java advanced frameworks called Spring & Hibernate
+          </h2>
+          <img class="testimonial-image" src="images/hibernate&spring.png" alt="lady-profile">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <h3 style="color: #fff;">🏛</h3>
+    <img class="press-logo" style="width: 20vw; margin-right:0;" src="images/michael-removebg-preview.png"
+      alt="tc-logo">
+    <img class="press-logo" style="margin-left: 4px;" src="images/landing-ruia-logo.png" alt="tnw-logo">
+    <img class="press-logo" src="images/somaiya.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/jspider.png" alt="mashable-logo">
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 style="text-align: center; color: #ef8172;">My Education Qualification</h2>
+    <p>I was an average student in my class, but the topics I have learned I have gone deep into that</p>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="color:#ef8172;">SSC / 10th</h2>
+          </div>
+          <div class="card-body">
+            <h3 style="color: #ff4c68;">74.20%</h3>
+            <p>Michael High School</p>
+            <p>Kurla -  West</p>
+            <p> 2014 </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="color:#ef8172;">HSC / 12th</h2>
+          </div>
+          <div class="card-body">
+            <h3 style="color: #ff4c68;">63.54%</h3>
+            <p>Ramnarain Ruia College</p>
+            <p>Matunga - East</p>
+            <p> 2016 </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 pricing-column">
+        <div class="card">
+          <div class="card-header">
+            <h2 style="color:#ef8172;">BSC-CS</h2>
+          </div>
+          <div class="card-body">
+            <h3 style="color: #ff4c68;">6.9 CGPA</h3>
+            <p>SK Somaiya College</p>
+            <p>Vidyavihar - East</p>
+            <p> 2020 </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">You can contact me through my E-mail </h3>
+    <button type="button" class="btn btn-lg btn-dark psb"><a href="mailto:shanitiwari29031998@gmail.com" style="text-decoration: none; color: white;"><i class="fa-regular fa-envelope"></i> e-mail</a></button>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <i class="ff fab fa-facebook-f"></i>
+    <i class="ff fab fa-twitter"></i>
+    <i class="ff fab fa-instagram"></i>
+    <i class="ff fa-brands fa-linkedin"></i>
+    <p>© Copyright Shani Tiwari</p>
+    <p style="line-height: 0;">(Sunny)</p>
+
+  </footer>
+
+</body>
+
+</html>
